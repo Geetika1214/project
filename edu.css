@@ -1,0 +1,60 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px,0px;
+}
+.navbar ul li{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px ;
+    transition: all 5s ease;
+}
+.navbar ul li a:hover{
+    background-color: blue;
+    color: darkkhaki;
+    border-radius: 5px;
+}
+body{
+    background-color: beige;
+}
+.edu{
+    background-color:palevioletred;
+    width: 1200px;
+    height: 550px;
+    margin-left: 220px;
+    margin-top: 60px;
+    box-shadow: 0 6px 6px 6px purple;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    text-decoration:underline;
+
+}
+h1{
+    margin-left: 30px;
+    color: white;
+    
+}
+.info{
+    margin-left: 88px;
+    font-size: 24px;
+    color: white;
+}

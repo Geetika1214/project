@@ -1,0 +1,86 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.navbar ul{
+    display:flex;
+    list-style: none;
+    margin: 20px,0px;
+}
+.navbar ul li{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px ;
+    transition: all 5s ease;
+}
+.navbar ul li a:hover{
+    background-color: blue;
+    color: darkkhaki;
+    border-radius: 5px;
+}
+.container
+{
+    width: 1350px;
+    height: 550px;
+    background-color: lightpink;
+    margin-left: 150px;
+    margin-top: 50px;
+    box-shadow: 0 6px 6px 6px burlywood;
+}
+h1{
+    font-size: 45px;
+
+}
+h1:hover{
+    color:darkslategray;
+}
+.softskills
+{
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    
+}
+.softlist{
+    
+      font-size: 25px;
+      padding-left: 15px;
+      color: darkslategrey;
+      text-align: center;
+      font-weight: bold;
+}
+.Tech{
+    color: white;
+    
+
+}
+h1{
+    text-align: center;
+
+}
+.Techlist{
+    font-size: 25px;
+}
+.Techlist{
+    font-size: 25px;
+    padding-left: 15px;
+    color: darkslategrey;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+body{
+    background-color: bisque;
+}

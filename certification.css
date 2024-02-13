@@ -1,0 +1,105 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px,0px;
+}
+.navbar ul li{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px ;
+    transition: all 5s ease;
+}
+.navbar ul li a:hover{
+    background-color: blue;
+    color: darkkhaki;
+    border-radius: 5px;
+}
+.certificates{
+    width: 900px;
+    height: 550px;
+    margin-left: 400px;
+    margin-top: 60px;
+    background-color: cadetblue;
+    box-shadow: 0 6px 7px 6px lightskyblue;
+    border-radius: 10px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: none;
+    animation: head 2s alternate 2s 100 right ease-in-out;
+}
+@keyframes head {
+    from{
+        color: white;
+        translate: -100%;
+
+    }
+    to{
+        color: orangered;
+        translate: 100%;
+    }
+}
+h1:hover{
+    color: coral;
+    text-shadow:  red;
+}
+
+.java{
+    color: brown;
+    font-size: 40px;
+    padding-left: 39S0px;
+    font-weight: bold;
+}
+.javacerti{
+    color: blueviolet;
+    font-size: 20px;
+    padding-left: 300px;
+    font-weight: bold;
+}
+.kotlin{
+    color: brown;
+    font-size: 40px;
+    padding-left: 380px;
+    font-weight: bold;
+}
+.kotlincerti{
+    color: blueviolet;
+    font-size: 20px;
+    padding-left: 330px;
+    font-weight: bold;
+}
+.Flutter{
+    color: brown;
+    font-size: 40px;
+    padding-left: 380px;
+    font-weight: bold;
+}
+.fluttercerti{
+    color: blueviolet;
+    font-size: 20px;
+    padding-left: 330px;
+    font-weight: bold;
+}
+body{
+    background-color: cornsilk;
+}

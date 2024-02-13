@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px,0px;
+}
+.navbar ul li{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px ;
+    transition: all 5s ease;
+}
+.navbar ul li a:hover{
+    background-color: blue;
+    color: darkkhaki;
+    border-radius: 5px;
+}
+.container{
+    width: 1200px;
+    height:535px;
+    background-color: antiquewhite;
+    margin: 100px;
+    box-shadow: 0 6px 6px 6px;
+    margin-top: 50px; 
+    box-shadow: 0 6px 6px 6px grey;
+    border-radius: 15px;
+    margin-left: 240px;
+}
+body{
+    background-color: lavender;
+}
+img{
+    width: 470px;
+    height: 480px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.info{
+    width:500px;
+    height: 1000px;
+    float: right;
+    margin-top: 0px;
+    justify-content: center;
+    color: black;
+    margin-right:  15px;
+    margin-bottom: 50px;
+}
+.hello
+{
+    font-size: 90px;
+    font-weight:bold ;
+}
+.name
+{
+    font-size: 65px;
+    font-weight:bold ;
+}
+
+.insta{
+    width: px;
+    height: px;
+    margin-top: 0px ;
+    margin-left: 200px;
+}
